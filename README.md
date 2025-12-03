@@ -1,6 +1,6 @@
 # RecordIQ - AI-Powered Business Management Platform
 
-> **⚠️ DISCLAIMER**: This is a copy of the original project for assignment purposes. GitHub Actions workflows and CI/CD pipelines have been removed from this version. The original project with full CI/CD implementation can be found at: [https://github.com/masmunge95/Recordiq.git](https://github.com/masmunge95/Recordiq.git)
+> **⚠️ DISCLAIMER**: This is a copy of the original project for assignment purposes. GitHub Actions workflows and CI/CD pipelines have been removed from this version to prevent deployment conflicts. The original project with full CI/CD implementation can be found at: [https://github.com/masmunge95/Recordiq.git](https://github.com/masmunge95/Recordiq.git)
 
 A comprehensive, offline-first business management platform with AI-powered OCR, multi-tier subscriptions, and integrated payments. Built for service providers, utility companies, and small businesses to manage invoices, customers, records, and payments seamlessly across web and mobile.
 

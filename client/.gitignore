@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+*.local
+
+# Environment files
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Capacitor
+android/
+ios/
+.capacitor/
+
+# Keystores (do not commit signing keys)
+keystores/
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+local.properties
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+
+# OS
+Thumbs.db
+
+# Testing
+coverage/
+cypress.env.json
+cypress/videos/
+cypress/screenshots/
+test-output.txt
+TEST_SUMMARY.md
+
+# Cache
+.cache/
+.temp/
+
+# Capacitor plugins
+capacitor-plugins/
+
+# Packaging artifacts
+packaging/android/output/
+packaging/android/*.apk
+packaging/android/*.aab

@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Testing
+coverage/
+
+# Uploads (keep folder structure but ignore uploaded files)
+uploads/**/*
+!uploads/.gitkeep
+!uploads/invoices/
+!uploads/invoices/.gitkeep
+!uploads/records/
+!uploads/records/.gitkeep
+!uploads/ocr/
+!uploads/ocr/.gitkeep
+
+# Database dumps
+*.dump
+*.sql
+dump/
+
+# Exports and data files
+exports/
+*.jsonl
+*.csv
+
+# Test files
+test-uploads/
+tmp/
+
+# Scripts (migrations, maintenance, testing)
+scripts/
+
+# Process files
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+dist/
+build/
+
+# Cache
+.npm
+.eslintcache
+.cache/

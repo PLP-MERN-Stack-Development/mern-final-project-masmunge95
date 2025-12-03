@@ -1,0 +1,94 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Production builds
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Misc
+.cache/
+.temp/
+tmp/
+product keys/
+
+# Android (Capacitor/Gradle)
+client/android/
+client/ios/
+
+# Keystores (sensitive)
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+local.properties
+
+# Capacitor
+.capacitor/
+
+# Database
+*.sqlite
+*.db
+
+# Uploads
+server/uploads/**/*
+!server/uploads/.gitkeep
+!server/uploads/invoices/.gitkeep
+!server/uploads/records/.gitkeep
+
+# Exports (database exports, OCR exports, etc.)
+server/exports/
+*.jsonl
+*.csv
+
+# Backups
+backups/
+*.gz
+*.dump
+
+# Scripts (database migrations, maintenance, etc.)
+server/scripts/
+
+# Test outputs
+server/test-uploads/
+server/tmp/
+client/test-output.txt
+
+# Personal instructional files
+guides/

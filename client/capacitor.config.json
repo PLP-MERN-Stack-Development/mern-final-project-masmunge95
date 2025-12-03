@@ -1,0 +1,8 @@
+{
+  "appId": "com.recordiq.app",
+  "appName": "Recordiq",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http"
+  }
+}

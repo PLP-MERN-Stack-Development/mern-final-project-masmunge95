@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
+  "include": ["src/**/*", "cypress/e2e/post-creation.cy.js"],
+  "exclude": ["node_modules", "build", "dist"]
+}
